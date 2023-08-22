@@ -17,6 +17,7 @@ it('should check if brackets sequence is correct 2', () => {
   assert.equal(check('((()))()', config1), true);
 });
 
+
 it('should check if brackets sequence is not correct 3', () => {
   assert.equal(check('())(', config1), false);
 });
